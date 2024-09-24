@@ -1,0 +1,32 @@
+<!-- Create an HTML Document to draw graphics, clickeble button, dailog box or window with an HTML tag. -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> Assignment 4 </title>
+</head>
+
+<body>
+
+<canvas height id="mycanvas" height="100" width="150" style="border : 1px solid">
+</canvas>
+
+<script> 
+
+const canvas = document.getElementById("mycanvas");
+const ctx = canvas. getContext ("2d");
+ctx. fillRect (0,0,100,100);
+ctx.fillStyle="red";
+
+</script>
+
+<dialog open>
+<h2> Dialog Box </h2>
+<p> This is dialog box. </p>
+<button> Click Me ! </button>
+</dialog>
+
+<div id="spin"></div>
+</body>
+</html>
